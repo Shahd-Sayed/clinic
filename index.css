@@ -121,10 +121,12 @@ header .fa-solid,
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 100px;
+    gap: 50px;
+
 }
 
 .about_card img {
-    width: 500px;
+    width: 100%;
 }
 
 .about_card h6 {
