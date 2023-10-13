@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clinic</title>
+        <!-- font's google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Castoro&family=Fredericka+the+Great&family=Inclusive+Sans&family=Lobster&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oxygen:wght@300;400;700&family=Princess+Sofia&family=Roboto:wght@100&family=Rubik:wght@300;400;500;600;700;800;900&family=STIX+Two+Text:wght@400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet">
+        <!-- normalize css -->
+        <link rel="stylesheet" href="normalize.css">
+        <!-- fontawesome -->
+        <script
+            src="https://kit.fontawesome.com/306f44334f.js"
+            crossorigin="anonymous"></script>
+        <!-- css sources -->
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <span><i class="fa-solid fa-location-dot"></i> 123 Street,
+                    New York, USA</span>
+                <span><i class="fa-regular fa-clock"></i> Mon - Fri : 09.00
+                    AM - 09.00 PM</span>
+                <span><i class="fa-solid fa-phone"></i> +012 345 6789</span>
+                <span class="all justify-content-end">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+            </div>
+        </header>
+        <!-- end header -->
+        <!-- start nav -->
+        <nav class="navbar navbar-expand-lg sticky-top ">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#"><i
+                        class="fa-solid fa-house-chimney-medical"></i> Clinic</a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span><i class="fa-solid fa-bars" style="color:#0464fc"></i></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-end"
+                    id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link"
+                                href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="navbardrop" data-toggle="dropdown">
+                                PAGES
+                            </a>
+                            <div class="dropdown-menu"
+                                style="border:transparent;">
+                                <a class="dropdown-item" href="features.html">FEATURES</a>
+                                <a class="dropdown-item" href="doctors.html">OUR
+                                    DOCTORS</a>
+                                <a class="dropdown-item" href="APPONITMENT.html">APPONITMENT</a>
+                                <a class="dropdown-item" href="TESTIMIONAL.html">TESTIMIONAL</a>
+                                <a class="dropdown-item" href="#">ERROR 404</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"  style="color:#0464fc !important">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end nav -->
+        <div class="intro-about">
+            <img src="/img/header-page.jpg" alt width="100%" height="300vh">
+            <h1 style=" margin-top:-200px; margin-left:60px;
+            color:#fff;font-weight:900">contact us</h1>
+            <div class="alls" style="margin-left: 60px; color:#fff">
+                <span>Home / </span>
+                <span>page / </span>
+                <span style="color: #0464fc;">contact us </span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="Appointment" style="margin-top: 200px;">
+                <div class="section">
+                    <h6>Appointment</h6>
+                    <h1>Make An Appointment To Visit Our Doctor</h1>
+                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum
+                        sit. Aliqu diam amet diam et eos. Clita erat ipsum et
+                        lorem et sit, sed stet lorem sit clita duo justo magna
+                        dolore erat amet</p>
+                    <div class="all">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Call Us Now <br>
+                            +012 345 6789
+                        </span>
+                    </div>
+                    <div class="all mt-4">
+                        <i class="fa-solid fa-message"></i>
+                        <span>Mail Us Now
+                            <br>
+                            info@example.com
+                        </span>
+                    </div>
+                </div>
+                <div class="sections">
+                    <form action="index.html" method="post">
+                        <div class="alls mt-0">
+                            <input type="text" name="name" placeholder="name">
+                            <input type="email" name="email" placeholder="email">
+                            <input type="tel" name="tel"
+                                placeholder="phone number">
+                            <select name="doctor">
+                                <option value="default">choose doctor</option>
+                                <option value="default">doctor 1</option>
+                                <option value="default">doctor 2</option>
+                                <option value="default">doctor 3</option>
+                                <option value="default">doctor 4</option>
+                            </select>
+                            <input type="date" name="date">
+                            <input type="time" name="time">
+                            <input type="text" name="problem"
+                                placeholder="describe your problem">
+                            <div class="bty">
+                                <input type="submit"
+                                    value="send your Appointment">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- end Appointment -->
+        <!-- start footer -->
+        <div class="footer mt-5">
+            <div class="container">
+                <div class="all_grid">
+                    <div class="section_grid">
+                        <h4>address</h4>
+                        <p>
+                            <span><i class="fa-solid fa-location-dot"> </i>
+                                <span> 123 Street, New York, USA</span></span>
+                        </p>
+                        <p>
+                            <span><i class="fa-solid fa-phone"> </i> <span>
+                                    +0136469765</span></span>
+                        </p>
+                        <p>
+                            <span><i class="fa-solid fa-message"> </i> <span>
+                                    shahd@gmail.com</span></span>
+                        </p>
+                        <p>
+                            <span><i class="fa-solid fa-location-dot"> </i>
+                                <span> 123 Street, New York, USA</span></span>
+                        </p>
+                    </div>
+                    <div class="section_grid">
+                        <h4>services</h4>
+                        <p><a href="#">> cardiology</a></p>
+                        <p><a href>> Pulmonary</a></p>
+                        <p> <a href>> Neurology</a></p>
+                        <p><a href>> Orthopedics</a></p>
+                        <p><a href>> Laboratory</a></p>
+                    </div>
+                    <div class="section_grid">
+                        <h4>Quick links</h4>
+                        <p><a href="#">> About us</a></p>
+                        <p><a href>> contact us</a></p>
+                        <p> <a href>> our services</a></p>
+                        <p><a href>> terms and conditions</a></p>
+                        <p><a href>> support</a></p>
+                    </div>
+                    <div class="section_grid">
+                        <h4>Newsletter</h4>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr
+                            est.</p>
+                        <input type="email" name="email" placeholder="email">
+                        <input type="submit" value="send"
+                            style="margin-left:-60px; background-color:#0464fc; color:#fff; padding:7px">
+                    </div>
+
+                </div>
+                <hr>
+                <span class="end">
+                    © CLINIC, All Right Reserved.
+                </span>
+                <span class="ends justify-content-end ">
+                    designed by shahd sayed
+                </span>
+
+            </div>
+
+            <!-- end footer -->
+            <script
+                src="cdnjs.cloudflare.com_ajax_libs_popper.js_1.11.0_umd_popper.min.js"></script>
+            <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+            <script src="bootstrap.js"></script>
+        </body>
+    </html>

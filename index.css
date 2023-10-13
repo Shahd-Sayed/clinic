@@ -1,0 +1,524 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+:root {
+    --main-color: #ecf4fc;
+    --secondary-color: #0464fc;
+    ;
+    --hover-color: #0454d4;
+    --color: grey;
+    --bg: #fff;
+    --section: #000;
+    --cards_team_bg: #203c5c;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background-color: var(--main-color) !important;
+    padding: 15px;
+    font-size: 13px;
+    color: var(--color);
+}
+
+header span:nth-child(2) {
+    margin-left: 9px;
+}
+
+header span:nth-child(3) {
+    margin-left: 490px;
+}
+
+header span:nth-child(4) {
+    margin-left: 5px;
+}
+
+header .fa-solid,
+.fa-regular,
+.fa-brands {
+    color: var(--secondary-color) !important;
+}
+
+.fa-brands {
+    padding-left: 4px;
+}
+
+.navbar {
+    background-color: var(--bg) !important;
+}
+
+.navbar-brand {
+    font-size: 26px !important;
+    font-weight: 900 !important;
+    color: var(--secondary-color) !important;
+}
+
+.nav-item {
+    padding-left: 8px !important;
+}
+
+.nav-link {
+    color: var(--section) !important;
+    font-size: 17px !important;
+    transition: 0.3s;
+
+}
+
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+}
+
+.section_one {
+    background-color: var(--secondary-color);
+    color: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_one h1 {
+    width: 500px;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+.carousel-item img {
+    width: 100% !important;
+    height: 500px !important;
+}
+
+.carousel-item h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: var(--bg);
+    font-size: 72px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.carousel-item h4:hover {
+    color: var(--secondary-color);
+}
+
+.about_all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+}
+
+.about_card img {
+    width: 500px;
+}
+
+.about_card h6 {
+    border: 1px solid var(--secondary-color);
+    border-radius: 19px;
+    width: fit-content;
+    padding: 10px;
+    color: var(--color);
+}
+
+.about_card h1 {
+    color: var(--cards_team_bg);
+}
+
+.about_card p {
+    color: var(--color);
+}
+
+.about_card .fa-solid {
+    color: var(--secondary-color);
+}
+
+.about_card .button {
+    border: 1px solid var(--secondary-color);
+    border-radius: 22px;
+    width: fit-content;
+    padding: 10px;
+    color: var(--bg);
+    background-color: var(--secondary-color);
+    transition: 0.3s;
+}
+
+.about_card .button:hover {
+    background-color: #0454d4;
+}
+
+.all {
+    margin-top: 100px;
+}
+
+.sercice_head {
+    display: flex;
+    justify-content: center;
+}
+
+.sercice_head .service_header h6 {
+    border: 1px solid var(--secondary-color);
+    border-radius: 19px;
+    width: fit-content;
+    padding: 10px;
+    color: var(--color);
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.sercice_head .service_header h1 {
+    margin-top: 30px;
+}
+
+.all .services_all {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.all .services_all .services_card {
+    background-color: var(--main-color);
+    padding: 50px;
+}
+
+.all .services_all .services_card .fa-solid {
+    border-radius: 50%;
+    background-color: var(--bg);
+    color: var(--secondary-color);
+    padding: 15px;
+    font-size: 28px;
+}
+
+.all .services_all .services_card h3 {
+    margin-top: 10px;
+    color: var(--cards_team_bg);
+}
+
+.all .services_all .services_card p {
+    color: var(--color);
+}
+
+.all .services_all .services_card .buttton {
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px;
+    color: var(--secondary-color);
+    background-color: var(--bg);
+    transition: 0.3s;
+}
+
+.section_one .container h6 {
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px;
+    color: var(--bg);
+    border: 1px solid var(--color);
+}
+
+.section_one .grid_all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+}
+
+.section_one .grid_all p .fa-solid {
+    border-radius: 50%;
+    background-color: var(--bg);
+    color: var(--secondary-color);
+    padding: 15px;
+    font-size: 18px;
+}
+
+.all .our_all {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.all .our_all .card_our {
+    background-color: var(--main-color);
+    border-radius: 16px;
+
+}
+
+.all .our_all .card_our img {
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 16px;
+    transition: 0.3s;
+
+}
+.all .our_all .card_our img:hover{
+    transform: scale(0.9);
+
+}
+
+.all .our_all .card_our h4 {
+    text-align: center;
+    font-weight: 800;
+}
+
+.all .our_all .card_our p {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 18px;
+}
+.Appointment{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.Appointment .section h6{
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px;
+    color: var(--color);
+    border: 1px solid var(--secondary-color);
+}
+.Appointment .section h1{
+    margin-top: 20px;
+    color: var(--cards_team_bg);
+    font-weight: 600;
+}
+.Appointment .section p{
+    margin-top: 20px;
+    color: var(--color);
+}
+.Appointment .section .all{
+    margin-top: -2px;
+    background-color: var(--main-color);
+    padding: 30px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+.Appointment .section .all span{
+    margin-left: -270px;
+    font-weight: 600;
+}
+.Appointment .section .all .fa-solid{
+    margin-top: 12px;
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+.sections{
+    background-color: var(--main-color);
+    border-radius: 12px;
+    padding: 20px 50px ;
+}
+.sections .alls input {
+    width: 100%;
+    margin: 12px 0px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding: 12px;
+    transition: 0.3s;
+}
+.sections .alls input:hover {
+    border: 2px solid var(--secondary-color);
+}
+.sections .alls select{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+.sections .alls select option{
+    border: none;
+    outline: none;
+}
+.sections .alls select:hover {
+    border: 2px solid var(--secondary-color);
+}
+.sections .alls .bty input{
+    background-color: var(--secondary-color);
+    color: var(--bg);
+    transition: 0.5s;
+    border: none;
+}
+.sections .alls .bty input:hover{
+    background-color: var(--hover-color);
+}
+.section_Says_grid {
+    padding: 80px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 75px;
+}
+
+.section_Says_grid .sections_one {
+    padding: 20px;
+    box-shadow: 4px 4px 4px 4px #88888861;
+}
+
+.section_Says_grid .sections_one img {
+    width: 100px;
+    border: 4px solid transparent !important;
+    border-radius: 50%;
+    margin-top: -70px;
+}
+
+.section_Says_grid .section_one h1 {
+    font-size: 22px;
+    padding-top: 8px;
+}
+
+.Testimonial{
+    margin-top: 80px;
+}
+.Testimonial .paraoner{
+    text-align: center;
+}
+.Testimonial .paraoner h6 {
+    border: 1px solid var(--secondary-color);
+    border-radius: 19px;
+    width: fit-content;
+    padding: 10px;
+    color: var(--color);
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.Testimonial .paraoner h1{
+    padding-top: 30px;
+}
+.footer{
+    background-color: #1c2c54;
+    color: var(--bg);
+    padding: 40px 0;
+}
+.footer .all_grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer .all_grid .section_grid h4{
+    margin-bottom: 20px;
+}
+.footer .all_grid .section_grid p a{
+    color: var(--bg) !important;
+    transition: 0.3s;
+}
+.footer .all_grid .section_grid p a:hover{
+    color: var(--hover-color) !important;
+    text-decoration: none;
+    margin: 10px;
+}
+.footer .all_grid .section_grid input{
+    border-radius: 8px;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+.ends{
+    display: flex;
+    margin-top:-22px;
+    transition: 0.3s;
+}
+hr{
+    background-color: var(--bg);
+    opacity: 20%;
+}
+.ends:hover{
+    color: var(--secondary-color);
+}
+@media only screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
+
+    .dropdown-menu {
+        width: 200px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .carousel-item h4 {
+        font-size: 52px;
+    }
+
+    .section_one h1 {
+        width: 100%;
+        height: 180px;
+        font-size: 38px;
+        padding: 9px;
+        text-align: center;
+    }
+
+    .about_all {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 80px;
+        gap: 45px;
+    }
+
+    .about_card img {
+        width: 350px;
+    }
+
+    .all {
+        margin-top: 80px;
+    }
+
+    .sercice_head .service_header h1 {
+        font-size: 29px;
+    }
+
+    .all .services_all {
+        margin-top: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section_one .grid_all {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+    }
+
+    .all .our_all {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Appointment{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Appointment .section .all{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Appointment .section .all span{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .section_Says_grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer .all_grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ends{
+        margin-top: 20px;
+    }
+}
