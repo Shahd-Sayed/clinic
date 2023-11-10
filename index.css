@@ -519,3 +519,82 @@ hr{
         margin-top: 20px;
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 830px) {
+    header {
+        display: none;
+    }
+
+    .dropdown-menu {
+        width: 200px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .carousel-item img {
+        width: 100% !important;
+        height: 500px !important;
+    }
+    .carousel-item h4 {
+        font-size: 62px;
+    }
+    .section_one h1 {
+        height: 30vh;
+        font-size: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about_all {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 80px;
+        gap: 45px;
+    }
+    .all {
+        margin-top: 80px;
+    }
+
+    .sercice_head .service_header h1 {
+        font-size: 29px;
+    }
+
+    .all .services_all {
+        margin-top: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section_one .grid_all {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+    }
+    .section_one .container .one h1{
+        margin-left: -126px;
+    }
+    .all .our_all {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .Appointment{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Appointment .section .all{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Appointment .section .all span{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .section_Says_grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer .all_grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ends{
+        margin-top: 20px;
+    }
+   
+}
